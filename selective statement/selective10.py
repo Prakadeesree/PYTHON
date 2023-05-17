@@ -8,11 +8,9 @@ def is_leap_year(year):
     else:
         return False
 
-# Read the year from the user
 year = int(input("Enter a year: "))
 
-# Check if it is a leap year
-if is_leap_year(year):
+if (is_leap_year(year)):
     print(year, "is a leap year.")
 else:
     print(year, "is not a leap year.")
